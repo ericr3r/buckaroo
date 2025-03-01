@@ -6,6 +6,7 @@
 
     ./plugins/editor/fidget.nix
     ./plugins/editor/neo-tree.nix
+    ./plugins/editor/pairs.nix
     ./plugins/editor/which-key.nix
 
     ./plugins/lsp/conform.nix
