@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{...}: {
   # Import all your configuration modules here
   imports = [
     ./keymaps.nix
@@ -8,6 +8,8 @@
     ./plugins/editor/neo-tree.nix
     ./plugins/editor/pairs.nix
     ./plugins/editor/which-key.nix
+
+    ./plugins/git/fugitive.nix
 
     ./plugins/lsp/conform.nix
     ./plugins/lsp/lsp.nix
