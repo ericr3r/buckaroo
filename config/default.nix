@@ -20,5 +20,7 @@
 
     ./plugins/ui/bufferline.nix
     ./plugins/ui/themes.nix
+    
+    ./plugins/utils/suda.nix
   ];
 }
