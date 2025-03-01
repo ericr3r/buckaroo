@@ -3,7 +3,7 @@
     gopls.enable = true;
   };
 
-  plugins.conform-nvim.formattersByFt.go = [
+  plugins.conform-nvim.settings.formatters_by_ft.go = [
     "goimports"
     "golines"
     "gofmt"
