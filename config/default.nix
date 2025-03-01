@@ -19,8 +19,9 @@
     ./plugins/languages/nix.nix
 
     ./plugins/ui/bufferline.nix
+    ./plugins/ui/noice.nix
     ./plugins/ui/themes.nix
-    
+
     ./plugins/utils/suda.nix
   ];
 }
