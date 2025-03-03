@@ -1,4 +1,4 @@
-{...}: {
+{pkgs, ...}: {
   # Import all your configuration modules here
   imports = [
     ./keymaps.nix
@@ -23,5 +23,9 @@
     ./plugins/ui/themes.nix
 
     ./plugins/utils/suda.nix
+  ];
+
+  extraPlugins = with pkgs.vimPlugins; [
+    nvim-treesitter.withAllGrammars
   ];
 }
