@@ -17,6 +17,7 @@
 
     ./plugins/languages/go.nix
     ./plugins/languages/nix.nix
+    ./plugins/languages/yaml.nix
 
     ./plugins/ui/bufferline.nix
     ./plugins/ui/noice.nix
