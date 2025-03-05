@@ -20,6 +20,8 @@
     ./plugins/languages/terraform.nix
     ./plugins/languages/yaml.nix
 
+    ./plugins/treesitter
+
     ./plugins/ui/bufferline.nix
     ./plugins/ui/noice.nix
     ./plugins/ui/themes.nix
