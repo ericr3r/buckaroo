@@ -26,6 +26,7 @@
     ./plugins/ui/toggleterm.nix
 
     ./plugins/utils/suda.nix
+    ./plugins/utils/telescope.nix
   ];
 
   extraPlugins = with pkgs.vimPlugins; [
