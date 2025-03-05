@@ -8,6 +8,8 @@
 
   clipboard.register = "unnamedplus";
 
+  plugins.treesitter.settings.highlight.enable = true;
+
   extraConfigLua = ''
     local servername = vim.api.nvim_get_vvar("servername")
     vim.opt.title = true

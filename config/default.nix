@@ -17,6 +17,7 @@
 
     ./plugins/languages/go.nix
     ./plugins/languages/nix.nix
+    ./plugins/languages/terraform.nix
     ./plugins/languages/yaml.nix
 
     ./plugins/ui/bufferline.nix
@@ -29,5 +30,6 @@
 
   extraPlugins = with pkgs.vimPlugins; [
     nvim-treesitter.withAllGrammars
+    # (nvim-treesitter.withPlugins (p: [p.hcl p.terraform]))
   ];
 }

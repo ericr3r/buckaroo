@@ -2,7 +2,7 @@
   plugins.toggleterm = {
     enable = true;
     settings = {
-      open_mapping = "[[<C-t>]]";
+      open_mapping = "[[<c-\\>]]";
       hide_numbers = true;
       start_in_insert = true;
       terminal_mappings = true;
