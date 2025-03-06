@@ -23,6 +23,7 @@
     ./plugins/treesitter
 
     ./plugins/ui/bufferline.nix
+    ./plugins/ui/indent-blankline.nix
     ./plugins/ui/noice.nix
     ./plugins/ui/themes.nix
     ./plugins/ui/toggleterm.nix

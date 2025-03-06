@@ -1,11 +1,14 @@
 {
   opts = {
-    tabstop = 2;
-    softtabstop = 2;
-    shiftwidth = 2;
     expandtab = true;
+    number = true;
+    relativenumber = true;
+    shiftwidth = 2;
+    softtabstop = 2;
+    tabstop = 2;
+    undofile = true;
+    undolevels = 10000;
   };
-
   clipboard.register = "unnamedplus";
 
   extraConfigLua = ''
