@@ -17,6 +17,7 @@
 
     ./plugins/languages/go.nix
     ./plugins/languages/nix.nix
+    ./plugins/languages/shell.nix
     ./plugins/languages/terraform.nix
     ./plugins/languages/yaml.nix
 

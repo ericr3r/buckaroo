@@ -17,4 +17,6 @@
     vim.opt.titlestring = string.format("nvim %s -- [%s] ", vim.fn.getcwd(), servername)
 
   '';
+
+  plugins.lint.enable = true;
 }
