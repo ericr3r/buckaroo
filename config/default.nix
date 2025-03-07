@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   # Import all your configuration modules here
   imports = [
+    ./autocmd.nix
     ./keymaps.nix
     ./settings.nix
 
