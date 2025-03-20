@@ -7,6 +7,7 @@
 
     ./plugins/editor/fidget.nix
     ./plugins/editor/neo-tree.nix
+    ./plugins/editor/cmp.nix
     ./plugins/editor/pairs.nix
     ./plugins/editor/which-key.nix
 
